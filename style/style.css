@@ -1,0 +1,474 @@
+html, body, {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	font-family:Bahnschrift ;
+}
+
+	/*scroll to top button*/
+#btnScrollToTop {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #12279e;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+	color: #ffffff;
+	outline: none;
+	cursor: pointer;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+	/*akhir untuk scroll to top*/
+
+/*untuk header*/
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	height: 27px;
+	background-color: white;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.logo {
+	float: left;
+	padding-bottom: 10px;
+}
+
+nav {
+	float: right;
+	padding-top: 7px;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: Bahnschrift;
+	letter-spacing: 3px;
+	font-size: 15px;
+	margin: 0 10px;
+	color: black;
+}
+
+/*akhir untuk header*/
+
+/*untuk main*/
+.container-satu {
+	width: 80%;
+	margin: 40px auto;
+	background-color:rgb(247, 247, 247);
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	font-family: Bahnschrift;
+}
+
+.kolom-utama {
+	flex: 2;
+	order: 2;
+}
+
+.sidebar-satu {
+	flex: 1;
+	order: 1;
+}
+
+.sidebar-dua {
+	flex: 1;
+	order: 3;
+}
+
+.judul-1 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.judul-1 h3 {
+	margin-top: 60px;
+}
+
+.judul-1 h2 {
+	font-size: 45px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.container-dua {
+	max-width: 700px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.promo {
+	padding: 10px;
+	box-sizing: border-box;
+	margin-left: 10px;
+	text-align: center;
+}
+
+	/*dekorasi keterangan produk dibawah "Our Recommendations"*/
+.promo:hover {
+	color: #3B79FF;
+}
+	/*akhir*/
+
+.container-empat {
+	width: 90%;
+	margin: 40px auto;
+	background-color:rgb(247, 247, 247);
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+	/*bagian gambar tv neo qled*/
+.banner figcaption {
+	position: absolute;
+	left: 46.5%;
+	top: 5%;
+	font-size: 20px;
+	color: white;
+}
+
+.banner figcaption h3 {
+	text-decoration: underline;
+}
+
+.desk-banner figcaption {
+	position: absolute;
+	left: 29.5%;
+	bottom: 2%;
+	color: white;
+	font-size: 30px;
+}
+	/*akhir bagian tv*/
+
+.judul-produk {
+	margin-top: 3px;
+}
+	/*Dibawah ini untuk page support*/
+
+		/*bagian untuk banner page support*/
+.container-lima {
+	width: 90%;
+	margin: 40px auto;
+}
+
+.banner-support figcaption h1{
+	position: absolute;
+	color: rgba(0, 0, 0, 0.7);
+	top: 37%;
+	left: 38.5%;
+	font-size: 50px;
+}
+
+.desk-support figcaption h2 {
+	position: absolute;
+	color: rgba(0, 0, 0, 0.7);
+	top: 44%;
+	left: 35%;
+	font-size: 30px;
+}
+		/*akhir bagian banner*/
+
+		/*support option*/
+
+.container-enam {
+	width: 90%;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.support-option {
+	width: 30%;
+	border: solid 1px rgba(0, 0, 0, 0.3);
+	padding: 20px 40px;
+	box-sizing: border-box;
+	border-radius: 25px;
+}
+
+button {
+	padding: 10px 25px;
+	border: none;
+	border-radius: 50px ;
+	cursor: pointer;
+	background-color: black ;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+button:hover {
+	background-color: rgb(73, 74, 78);
+}
+		/*akhir untuk support option*/
+
+	/*akhir untuk page suppprt*/
+
+	/*untuk page kontak*/
+
+.container-tujuh {
+	width: 90%;
+	margin: 100px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.kontak-page {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.item {
+	margin-bottom: 50px;
+	font-size: 16px;
+
+}
+
+.kontak-form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.text1 {
+	width: 100%;
+	height: 50px;
+	padding: 12px;
+	background-color: black;
+	color: white;
+	margin-bottom: 20px;
+}
+
+textarea {
+	width: 100%;
+	height: 50px;
+	padding: 12px;
+	background-color: black;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.btn {
+	width: 120px;
+	height: 40px;
+	margin-right: auto;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: rgb(73, 74, 78);
+}
+	/*akhir untuk page kontak*/
+
+	/*bagian produk page*/
+.container-delapan {
+	max-width: 100%;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.pilihan-produk {
+	width: 20%;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	text-align: center;
+	border: solid 1px rgba(0, 0, 0, 0.3);
+	border-radius: 25px;
+	box-shadow: ;
+}
+
+.pilihan-produk h3 {
+	font-weight: 100;
+}
+
+.pilihan-produk-tujuh {
+	text-align: center;
+	border: solid 1px rgba(0, 0, 0, 0.3);
+	border-radius: 25px;
+	padding: 20px;
+	margin-bottom: 100px;
+}
+
+.pilihan-produk-tujuh h3 {
+	font-weight: 100;
+}
+	/*akhir bagian produk page*/
+
+/*untuk page tentang kami*/
+
+.container-sembilan {
+	max-width: 90%;
+	margin: 100px auto;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.banner-tentang figcaption {
+	top: 27%;
+	left: 3%;
+	position: absolute;
+	color: white;
+	line-height: 1em;
+}
+	/*profile key people*/
+.container-sebelas {
+	max-width: 100%;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
+}
+
+.card {
+	width: 20%;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	text-align: center;
+	border: solid 1px rgba(0, 0, 0, 0.3);
+	border-radius: 25px;
+}
+	/*akhir bagian key people*/
+
+/*akhir untuk page tentang kami*/
+
+/*untuk page etika*/
+
+.container-sepuluh {
+	max-width: 90%;
+	margin: 70px auto;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.banner-etika figcaption {
+	top: 20%;
+	left: 5%;
+	position: absolute;
+	color: white;
+}
+
+.macam-etika {
+	line-height: 2em;
+	margin-bottom: 100px;
+}
+
+.macam-etika h1 {
+	margin-top: 70px;
+	margin-bottom: 70px;
+} 
+
+/*akhir untuk bagian main*/
+
+/*untuk footer*/
+
+.container-tiga{
+	max-width: 80%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+}
+
+	/*untuk bagian copyright*/
+.outer {
+	margin: 20px;
+	padding-left: 10px;
+}
+
+.outer p{
+	padding-left: 200px;
+}
+
+.inner {
+	width: 80%;
+	height: 1px;
+	margin: 0px auto;
+	border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+}
+	/*akhir bagian copyright*/
+
+.baris {
+	padding-left: 100px;
+	padding-right: 100px;
+	border-top: solid 1px rgba(0, 0, 0, 0.3);
+	border-right: solid 1px rgba(0, 0, 0, 0.3);
+	border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+}
+
+.baris.tiga {
+	border-right: none;
+}
+
+.baris.tiga p {
+	letter-spacing: 1px;
+}
+
+.baris ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.baris li {
+	padding-bottom: 30px;
+}
+
+
+	/*dekorasi bagian footer untuk menampilkan underline ketika hover*/
+.baris.satu a {
+	text-decoration: none;
+	color: black;
+}
+
+.container-tiga .baris span:hover {
+	text-decoration: underline;
+	color: #3B79FF;
+}
+
+.baris.dua a {
+	text-decoration: none;
+	color: black;
+}
+	/*akhir dekorasi untuk menampilkan underline ketika hover*/
+
